@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-color: #f0f7f4;
+} */
+body{
+    background-color: #acecd0c6;
+}
+
+div{
+    display: grid;
+    align-items: center;
+}
+
+h1{
+    margin-top: 20px;
+}
+
+.container{
+    margin-top: 20px;
+    width: 70vw;
+}
+
+li{
+    list-style: none;
+    margin: 5px 0px 5px 0px;
+}
+
+.container ul{
+    width: 70vw;
+    margin: 30px 15vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img{
+    width: 10vw;
+    height: 10vw;
+    cursor: pointer;    
+}
+.img :hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.622);
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#stone{
+    margin-top: 5vw;
+}
+
+#scissors{
+    margin-top: 5vw;
+}
+
+#score{
+    width: 20vw;
+    margin: 2vw 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+#score ul li{
+    background-color: rgba(102, 51, 153, 0);
+}
+
+#score ul{
+    background-color: rgba(113, 77, 150, 0.359);
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:  5px 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#result1{
+    margin: 1vw auto;
+    text-align: center;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+}
+
+#result{
+    margin: 1vw auto;
+    text-align: center;
+    font-size: larger;
+    padding: 10px;
+    background-color: rgba(4, 200, 96, 0.67);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#result:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.129);
+}
+
+
+@media screen and (max-width:1300px){
+    #score{
+        width: 25vw;
+        margin: 2vw auto;
+        font-size: large;
+    }
+}
+
+
+
+@media screen and (max-width:940px){
+    #score{
+        width: 25vw;
+        margin: 2vw auto;
+        font-size: large;
+    }
+}
+
+
+
+@media screen and (max-width:870px){
+    #score{
+        width: 25vw;
+        margin: 2vw auto;
+        font-size: medium;
+        line-height: 12px;
+    }
+
+    .img{
+        width: 15vw;
+        height: 15vw;   
+    }
+
+    
+#result{
+    margin: 1vw auto;
+    text-align: center;
+    font-size: medium;
+    padding: 6px;
+}
+}
+
+
+
+
+@media screen and (max-width:650px){
+    #score{
+        width: 45vw;
+        margin: 2vw auto;
+        font-size: medium;
+        line-height: 8px;
+        padding: 0 15px;
+    }
+
+    .img{
+        width: 20vw;
+        height: 20vw;   
+    }
+
+    
+#result{
+    margin: 1vw auto;
+    text-align: center;
+    font-size: medium;
+    padding: 6px;
+}
+
+
+#score ul{
+    width: 17vw;
+}
+}
+
+
+@media screen and (max-width:463px){
+    #score{
+        width: 45vw;
+        margin: 2vw auto;
+        font-size: medium;
+        line-height: 8px;
+        padding: 0 15px;
+    }
+
+    .img{
+        width: 25vw;
+        height: 25vw;   
+    }
+
+    
+#result{
+    margin: 1vw auto;
+    text-align: center;
+    font-size: medium;
+    padding: 6px;
+}
+
+
+#score ul{
+    width: 15vw;
+}
+}
+
+
+
+@media screen and (max-width:412px){
+    #score{
+        width: 50vw;
+        margin: 2vw auto;
+        font-size: medium;
+        line-height: 8px;
+        padding: 0 15px;
+    }
+
+    .img{
+        width: 25vw;
+        height: 25vw;   
+    }
+
+    
+#result{
+    margin: 1vw auto;
+    text-align: center;
+    font-size: medium;
+    padding: 6px;
+}
+
+
+#score ul{
+    width: 20vw;
+    padding: 5px;
+}
+
+.container ul{
+    width: 80vw;
+    margin: 10px 10vw;
+}
+}
+
+
+@media screen and (max-width:330px){
+    #score{
+        width: 45vw;
+        margin: 2vw auto;
+        font-size: medium;
+        line-height: 8px;
+        padding: 0 15px;
+    }
+
+    .img{
+        width: 28vw;
+        height: 28vw;   
+    }
+
+    
+#result{
+    margin: 1vw auto;
+    text-align: center;
+    font-size: small;
+    padding: 8px;
+}
+
+
+#score ul{
+    width: 27vw;
+}
+
+.container ul{
+    width: 82vw;
+    margin: 10px 9vw;
+}
+}
+

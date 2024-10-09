@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone, Paper & Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1> <center>Choose any one</center> </h1>
+    <div class="container">
+        <ul>
+            <li class="img" id="stone"><img src="/images/rock.png" alt="stone" srcset=""></li>
+            <li class="img" id="paper"><img src="/images/paper.png" alt="paper" srcset=""></li>
+            <li class="img" id="scissors"><img src="/images/scissors.png" alt="scissors"></li>
+        </ul>
+    </div>
+    <div id="score">
+        <ul class="human">
+            <li>You</li>
+            <li id="hscore">0</li>
+        </ul>
+        <ul>
+            <li>Computer</li>
+            <li id="cscore">0</li>
+        </ul>
+    </div>
+
+    <div >
+        <button id="result1"></button>
+        <button id="result"> Reset Game</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
